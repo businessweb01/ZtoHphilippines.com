@@ -1,0 +1,127 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+video{
+	height: 100vh;
+	width: 100vw;
+	object-fit: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -999;
+	filter: blur(6px);
+}
+@keyframes type {
+	0%{
+		width: 0ch;
+	}
+	100%{
+		width:34ch;
+	}
+
+}	
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	background: #040321;
+
+}
+nav{
+	flex: 1;
+	text-align: center;
+
+}
+nav ul{
+	display: block;
+	list-style-type: none;
+	justify-content: center;
+}
+nav ul li{
+	display: inline-block;
+	
+}
+nav ul li a {
+	text-decoration: none;
+	color: snow;
+	width: 120px;
+	display: block;
+	text-align: center;
+	word-spacing: 5px;
+}
+.R1M{
+	max-width: 360px;
+	margin-right: 20px;
+	padding: 45px;
+	background:rgba(50, 49, 56, 0.8);
+	border-radius: 10px;
+	cursor: default;
+	margin-bottom: 20px;
+	float: right;
+	text-align: center;
+
+}
+.H2R {
+	max-width: 360px;
+	margin-left: 20px;
+	padding: 45px;
+	background:rgba(50, 49, 56, 0.8);
+	border-radius: 10px;
+	cursor: default;
+	margin-bottom: 20px;
+
+
+
+  
+
+}
+.CBR1K{
+	max-width: 360px;
+	padding: 45px;
+	background:rgba(50, 49, 56, 0.8);
+	border-radius: 10px;
+    margin: 0 auto;
+	cursor: default;
+	margin-bottom: 20px;
+	
+
+}
+.V4S{
+	max-width: 360px;
+	margin-right: 20px;
+	padding: 45px;
+	background:rgba(50, 49, 56, 0.8);
+	border-radius: 10px;
+	margin-top: 50px;
+	float: right;
+	cursor: default;
+}
+.BMW1K{
+	max-width: 360px;
+	margin-left: 20px;
+	padding: 45px;
+	background:rgba(50, 49, 56, 0.8);
+	border-radius: 10px;
+	
+	margin-top: 50px;
+	cursor: default;
+	
+
+
+}
+.GSXR1K{
+	max-width: 360px;
+	margin-left: 20px;
+	padding: 45px;
+	background:rgba(50, 49, 56, 0.8);
+	border-radius: 10px;
+	margin: 0 auto;
+	cursor: default;
+	margin-top: 45px;
+
+
+}

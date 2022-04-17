@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1{
+	animation: type 3s;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-left: 20px;
+	padding: 0 5px;
+	background: linear-gradient(to bottom,transparent 30%,#1b1547 70%);
+	
+	text-align: center;
+	justify-content: center;
+}
+@keyframes type {
+	0%{
+		width: 0ch;
+	}
+	100%{
+		width:34ch;
+	}
+}
+video{
+	height: 100vh;
+	width: 100vw;
+	object-fit: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -999;
+	filter: blur(6px);
+}
+.PMS{
+	float: right;
+	font-size: 20px;
+	margin-right: 20px;
+	max-width: 400px;
+	margin-right: 20px;
+	padding: 45px;
+	background:rgba(50, 49, 56, 0.8);
+	border-radius: 10px;
+	cursor: default;
+}
+.ECU{
+
+
+    font-size: 20px;
+	max-width: 400px;
+	margin-left: 20px;
+	padding: 45px;
+	background:rgba(50, 49, 56, 0.8);
+	border-radius: 10px;
+	cursor: default;
+	margin-bottom: 20px;
+	;
+}
+.CERAMIC{
+	font-size: 20px;
+	margin-right: 20px;
+	max-width: 400px;
+	margin-right: 20px;
+	padding: 45px;
+	background:rgba(50, 49, 56, 0.8);
+	border-radius: 10px;
+	cursor: default;
+	margin: 0 auto;
+}
+.oil{
+	font-size: 20px;
+	max-width: 400px;
+	margin-left: 20px;
+	padding: 45px;
+	background:rgba(50, 49, 56, 0.8);
+	border-radius: 10px;
+	cursor: default;
+	margin-bottom: 20px;
+	float: left;
+
+}
+.remap{
+	font-size: 20px;
+	max-width: 400px;
+	margin-right: 20px;
+	padding: 45px;
+	background:rgba(50, 49, 56, 0.8);
+	border-radius: 10px;
+	cursor: default;
+	margin-bottom: 20px;
+	float: right;
+
+
+}
